@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: inherit
+}
+
+html{
+    font-size: 62.25%;
+}
+
+body{
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form {
+    width: 100%;
+}
+
+.form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form__input-container .text-input {
+    width: 15em;
+    height: 3em;
+    padding-left: .3rem;
+}
+
+.form__submit-btn button {
+    width: 8em;
+    height: 3em;
+}
+
+.main {
+    flex: 1;
+    width: 100%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.main__card-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: rgb(81, 97, 97);
+    color: white;
+    width: 100%;
+    text-align: center;
+}

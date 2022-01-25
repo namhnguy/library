@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,44 @@
     <script src="index.js" defer async></script>
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <h1>My Library</h1>
+    </header>
+    <section class="form">
+        <form class="book-info">
+            <div class="form__input-container">
+                <input class="text-input" type="text" id="title" name="title" placeholder="Book Title" required>
+                <input class="text-input" type="text" id="author" name="author" placeholder="Author Name" required>
+                <input class="text-input" type="text" id="pages" name="pages" placeholder="# of pages" required>
+                <input type="checkbox" id="read" name="read" value="true">
+                <label for="read">Read?</label>
+            </div>
+            <div class="form__submit-btn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    <main class="main">
+        <div class="main__card-container">
+            <div class="main__card-title">
+                Title
+            </div>
+            <div class="main__card-author">
+                Author
+            </div>
+            <div class="main__card-pages">
+                123
+            </div>
+            <div class=" main__card-read">
+                true
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>All rights reserved to Nam Nguyen</p>
+    </footer>
 </body>
+
 </html>
